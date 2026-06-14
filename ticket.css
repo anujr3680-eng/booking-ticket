@@ -410,3 +410,41 @@ img{
     font-weight:bold;
     border-radius:25px;
 }
+.all,
+.romantic,
+.comedy{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+.op{
+    margin:0;
+    width:250px;
+    display:flex;
+    flex-direction:column;
+}
+body{
+    overflow-x:hidden;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+.romantic,
+.comedy{
+    width:100%;
+    clear:both;
+    margin-top:50px;
+}
+
+.h{
+    display:block;
+    width:100%;
+    font-size:32px;
+    color:#D4AF37;
+    text-align:left;
+    padding-left:50px;
+    margin-bottom:25px;
+}
